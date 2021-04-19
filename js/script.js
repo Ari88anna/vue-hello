@@ -7,8 +7,10 @@ var app = new Vue(
 
         data: {
             mete: 'Vieni a trovarci',
-                       
-        }
+            miaImg: 'img/lake.jpg',                      
+        },
+
+        
         
     }
 )

@@ -20,7 +20,19 @@ body {
     text-align: center;    
 }
 
+.img-container.hide {
+    display: none;
+}
 .img-container img{
     border-radius: 20px;
+    
 }
 
+#view-button {
+    margin: 20px 0;
+    padding: 15px 20px;
+    border-radius: 20px;
+    border: 0;
+    background-color: cadetblue;
+    cursor: pointer;
+}

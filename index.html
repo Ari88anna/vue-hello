@@ -23,10 +23,10 @@
         <div class="container">
             <h1>{{mete}}</h1>
 
-            
+            <button id="view-button" @click="showImg" >Click to view</button>
 
 
-            <div class="img-container">
+            <div class="img-container" :class="imgToshow">
                 <img :src="miaImg" alt="">
             </div>
 

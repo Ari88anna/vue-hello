@@ -7,10 +7,14 @@ var app = new Vue(
 
         data: {
             mete: 'Vieni a trovarci',
-            miaImg: 'img/lake.jpg',                      
+            miaImg: 'img/lake.jpg',  
+            imgToshow: 'hide'                    
         },
-
-        
+        methods: {
+            showImg() {
+                this.imgToshow = ''
+            }
+        }        
         
     }
 )
